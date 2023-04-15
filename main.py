@@ -17,11 +17,8 @@ owEp = "https://api.openweathermap.org/data/2.5/onecall"
 owApiKey = "2c7a6cd8fd372cf4b675c1e6059f1863"
 
 """location data"""
-# MY_LAT = 21.860285
-# MY_LONG = 84.034145
-
-MY_LAT = -18.577330
-MY_LONG = -45.451759
+MY_LAT = 21.860285
+MY_LONG = 84.034145
 
 """dictionary to hold the parameters"""
 parameters = {
@@ -52,8 +49,7 @@ for i in range(13):
 twAccountSid = "AC4756c85ebeda51fdebc6a951242c6f25"
 
 """twilio token"""
-twAuthToken = "900300672ab119a56ba35fa86fbbb11e"
-
+twAuthToken = "aeb19ef48f7bd1fdb29547e1e84bfef9"
 """setting up twilio client"""
 client = Client(twAccountSid, twAuthToken)
 
