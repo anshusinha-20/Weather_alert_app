@@ -17,8 +17,8 @@ owEp = "https://api.openweathermap.org/data/2.5/onecall"
 owApiKey = "2c7a6cd8fd372cf4b675c1e6059f1863"
 
 """location data"""
-MY_LAT = 21.860285
-MY_LONG = 84.034145
+MY_LAT = "your lat"
+MY_LONG = "your long"
 
 """dictionary to hold the parameters"""
 parameters = {
